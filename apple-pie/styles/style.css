@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto';
+    margin: 0px;
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.767);
+}
+p{
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 25px;
+}
+.background-image{
+    background-image: url(/images/apple-pie.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.initialtext{
+    border-bottom: 3px solid  gray;
+    margin: 130px 150px 50px 150px;
+}
+#initialtext1{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.767);
+}
+#img {
+    display: flex;
+    margin:auto;
+    padding-bottom: 50px;
+}
+.ingredients{
+    border-bottom: 3px solid  gray;
+    margin: 50px 150px 0px 150px;
+}
+.directions{
+    margin: 50px 150px 200px 150px;
+}
+.directions li{
+    font-size: 25px;
+}
